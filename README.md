@@ -1,3 +1,12 @@
+# LogRocket Dialog Reproduction
+
+This repository demonstrates how the HTML `<dialog>` element leads to inaccurate positioning when rendered in LogRocket.
+
+The below screenshot shows the LogRocket replay viewer with a small site that renders a `<dialog>` element. The mouse
+shows the user interacting with the "Close" button but we can see how far apart the LogRocket viewer renders the dialog. 
+
+![Screenshot](./image.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
